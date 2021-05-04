@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Biodata"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.7"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:textSize="27dp"
+                android:textStyle="bold"
+                android:textColor="@color/gunmetal"
+                android:layout_weight="1"
+                android:text="Nama Panggilan Kamu" />
+
+            <EditText
+                android:id="@+id/EditTextNama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="120dp"
+                android:textSize="20dp"
+                android:hint="@string/name"
+                android:inputType="text"
+                android:textColor="@color/brown_grey_87"
+                android:backgroundTint="@color/brown_grey_87"/>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:textSize="27dp"
+                android:textStyle="bold"
+                android:textColor="@color/gunmetal"
+                android:layout_weight="1"
+                android:text="Umur Kamu" />
+
+            <EditText
+                android:id="@+id/EditTextUmur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="240dp"
+                android:textSize="20dp"
+                android:hint="Contoh : 12"
+                android:inputType="number"
+                android:textColor="@color/brown_grey_87"
+                android:backgroundTint="@color/brown_grey_87"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="50dp"
+        android:text="Selanjutnya"
+        android:background="@drawable/gradient"
+        android:onClick="hai"/>
+
+</LinearLayout>

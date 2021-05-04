@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Monitory</string>
+    <string name="keterangan">Dengan menekan tombol masuk berarti Anda menyetujui <b>Ketentuan Pengguna</b> dan <b>Kebijakan Data</b> kami</string>
+
+    <string name="pesan">
+        Beres! Sekarang %s udah bisa ngecek penggunaan HP mu tiap hari buat bantu kamu ngatur waktu :)
+    </string>
+
+    <string name="umur">Contoh: 12</string>
+    <string name="name">Contoh: Budi</string>
+</resources>

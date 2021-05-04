@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login_Code"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.7"
+        android:orientation="vertical"
+        android:background="@color/white_three">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginTop="80dp"
+                android:text="Kode Keluarga"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginTop="120dp"
+                android:text="Ketikan kode keluarga yang ayah bunda miliki disini"
+                android:textColor="@color/black"
+                android:textSize="17dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginTop="180dp"
+                android:text="A1B2C3"
+                android:textColor="@color/black"
+                android:background="@drawable/custom_button"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="50dp"
+                android:textAlignment="center"
+                android:layout_marginTop="250dp"
+                android:text="@string/keterangan"
+                android:textColor="@color/black3"
+                android:textSize="11dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginTop="290dp"
+                android:text="Masuk"
+                android:background="@drawable/gradient"
+                android:onClick="biodata"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginHorizontal="40dp"
+            android:textAlignment="center"
+            android:text="Belum punya kode keluarga?"
+            android:textColor="@color/gunmetal"
+            android:textSize="17dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="20dp"
+            app:cornerRadius="200dp"
+            android:text="Beli Kode Keluarga Disini"
+            android:textColor="@color/white_three"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/purpleish_blue"/>
+
+    </LinearLayout>
+
+</LinearLayout>
